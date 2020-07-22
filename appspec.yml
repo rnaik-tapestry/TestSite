@@ -3,3 +3,13 @@ os: windows
 files:
   - source: /Hello.html
     destination: C:\inetpub\wwwroot\TestSite
+
+phases:
+  post_build:
+    commands:
+      - mvn package
+      - mv target/TestSite ./
+artifacts:
+  files:
+    - TestSite/**/*
+ discard-paths: yes
