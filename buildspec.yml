@@ -4,4 +4,3 @@ files:
   - source: /Hello.html
     destination: C:\inetpub\wwwroot
 artifacts:
-  files: - '**/*'
