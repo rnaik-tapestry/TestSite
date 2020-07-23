@@ -2,6 +2,5 @@ version: 0.2
 os: windows
 artifacts:
   files:
-  - source: /Hello.html
-    destination: C:\inetpub\wwwroot\TestSite
+  - '**/*'
 name: artifact1
