@@ -1,6 +1,6 @@
 version: 0.2
 os: windows
-files:
-  - source: /Hello.html
-    destination: C:\inetpub\wwwroot
 artifacts:
+  files:
+    - source: /Hello.html
+      destination: C:\inetpub\wwwroot
